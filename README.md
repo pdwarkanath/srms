@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Follow these steps:
+Follow these steps to start the app locally:
 
 ## Clone this repo
 
@@ -33,3 +33,9 @@ Once the server is running, all that remains is to start the React application. 
 ```
 npm start
 ```
+
+This should start 
+
+## Troubleshooting tips
+
+Please ensure that you have at least Node version >=12 for this to work.
