@@ -1,0 +1,72 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Morgan",
+      "last_name": "Wallen",
+      "birth_date": "1993-05-13"
+    },
+    {
+      "id": 2,
+      "first_name": "Luke",
+      "last_name": "Combs",
+      "birth_date": "1990-03-02"
+    },
+    {
+      "id": 3,
+      "first_name": "Miranda",
+      "last_name": "Lambert",
+      "birth_date": "1983-11-10"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Strait",
+      "birth_date": "2012-11-07",
+      "id": 4
+    },
+    {
+      "first_name": "Kenny",
+      "last_name": "Chesney",
+      "birth_date": "2010-05-07",
+      "id": 5
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "English"
+    },
+    {
+      "id": 2,
+      "name": "Math"
+    },
+    {
+      "id": 3,
+      "name": "History"
+    },
+    {
+      "name": "Mint",
+      "id": 4
+    }
+  ],
+  "results": [
+    {
+      "course_id": 1,
+      "student_id": 1,
+      "score": "A",
+      "id": 1
+    },
+    {
+      "course_id": 4,
+      "student_id": 3,
+      "score": "C",
+      "id": 2
+    },
+    {
+      "course_id": 3,
+      "student_id": 5,
+      "score": "A",
+      "id": 3
+    }
+  ]
+}
