@@ -14,21 +14,9 @@
     },
     {
       "id": 3,
-      "first_name": "Miranda",
-      "last_name": "Lambert",
-      "birth_date": "1983-11-10"
-    },
-    {
-      "first_name": "George",
-      "last_name": "Strait",
-      "birth_date": "2012-11-07",
-      "id": 4
-    },
-    {
-      "first_name": "Kenny",
-      "last_name": "Chesney",
-      "birth_date": "2010-05-07",
-      "id": 5
+      "first_name": "Parker",
+      "last_name": "McCollum",
+      "birth_date": "1992-06-15"
     }
   ],
   "courses": [
@@ -43,10 +31,6 @@
     {
       "id": 3,
       "name": "History"
-    },
-    {
-      "name": "Mint",
-      "id": 4
     }
   ],
   "results": [
@@ -57,16 +41,10 @@
       "id": 1
     },
     {
-      "course_id": 4,
+      "course_id": 2,
       "student_id": 3,
-      "score": "C",
-      "id": 2
-    },
-    {
-      "course_id": 3,
-      "student_id": 5,
       "score": "A",
-      "id": 3
+      "id": 2
     }
   ]
 }

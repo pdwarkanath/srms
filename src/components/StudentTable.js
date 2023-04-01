@@ -1,7 +1,8 @@
+import { Table } from 'react-bootstrap'
 
 const StudentTable = ({students}) => {
     return (
-        <table>
+        <Table bordered responsive>
             <thead>
                 <tr>
                     <th>Name</th>
@@ -11,7 +12,7 @@ const StudentTable = ({students}) => {
             <tbody>
             {students.map(s=><tr key={s.id}><td>{s.first_name} {s.last_name}</td><td>{s.birth_date}</td></tr>)}
             </tbody>
-        </table>
+        </Table>
     );
 }
 

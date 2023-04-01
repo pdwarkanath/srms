@@ -1,4 +1,4 @@
-import './Notification.css'
+import Alert from 'react-bootstrap/Alert';
 
 const Notification = ({ notification }) => {
     if (notification === null) {
@@ -6,9 +6,9 @@ const Notification = ({ notification }) => {
     }
   
     return (
-      <div className="notification">
+      <Alert variant="success">
         {notification}
-      </div>
+      </Alert>
     )
 }
 

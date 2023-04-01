@@ -1,7 +1,7 @@
-
+import { Table } from 'react-bootstrap'
 const ResultTable = ({students, courses, results}) => {
     return (
-        <table>
+        <Table bordered responsive>
             <thead>
                 <tr>
                     <th>Course</th>
@@ -29,7 +29,7 @@ const ResultTable = ({students, courses, results}) => {
                 )})
                }
             </tbody>
-        </table>
+        </Table>
     );
 }
 
