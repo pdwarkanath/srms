@@ -34,7 +34,7 @@ Once the server is running, all that remains is to start the React application. 
 npm start
 ```
 
-This should start 
+This should start the application in the  default browser window at `localhost:3000`
 
 ## Troubleshooting tips
 
